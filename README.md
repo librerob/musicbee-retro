@@ -24,7 +24,7 @@ True-black background, phosphor-green text, scanlines on the Now Playing screen.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/detail-lyrics-queue.png" alt="Lyrics and playing-tracks queue"></td>
+    <td width="50%"><img src="docs/detail-lyrics-queue.png" alt="Synchronized lyrics and playing queue with the active line and track highlighted in pale mint"></td>
     <td width="50%"><img src="docs/detail-artwork-spectrum.png" alt="Artwork, track info and spectrum analyzer"></td>
   </tr>
   <tr>
@@ -74,7 +74,6 @@ Keep the `Images` subfolder next to the Theater Mode XML so MusicBee can find th
 - The playing track stands out in pale mint in the queue, with a speaker icon marking its row.
 - The track title is larger and brighter, with more space before the artist, album, and year.
 - The scanlines are softer behind the lyrics and queue. The synchronized lyric colors from 1.4 carry over.
-- The screenshots above are from 1.3.
 
 ## Palette
 
