@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+<!--  Paste it into MusicBee\Skins folder -->
+  
+<!-- Phosphor 0.7, a terminal-green AMOLED MusicBee skin, based on FarSe AMOLED / Chameleon Dark v1.6 by hiccup, edited by ENRIVAC. -->
+
+<variables>
+
+Phosphor_Hover="32,86,52"
+Phosphor_Selected_bg="71,237,110"
+Phosphor_Selected_fg="0,0,0"
+Phosphor_InactiveSelection="22,55,35"
+Phosphor_FocusBorder="112,189,133"
+Phosphor_ControlBorder="56,100,69"
+
+Mainpanel_Headerbar_bg="0,0,0"
+Mainpanel_Headerbar_fg="71,237,110"
+Mainpanel_Headerbar_Highlight_fg="71,237,110"
+Mainpanel_Headerbar_Disabled_fg="85,139,99"
+Mainpanel_Headerbar_Lowlight_bg="6,6,6"
+Mainpanel_Headerbar_Lowlight_fg="100,191,123"
+Mainpanel_Headerbar_Buttons_bg="6,6,6"
+Mainpanel_Headerbar_Buttons_Highlight_bg="17,34,23"
+Mainpanel_Headerbar_Line="6,6,6"
+
+Panels_PanelDividers="30,80,50"
+
+Tabsbar_bg="0,0,0"
+Tabsbar_fg_Medium="100,191,123"
+Tabsbar_fg_Low="0,0,0"
+
+Searchpanels_Active_bg="6,6,6"
+
+LeftSidebar_bg="0,0,0"
+LeftSidebar_fg="71,237,110"
+LeftSidebar_Lowlight_fg="85,255,142"
+LeftSidebar_Headerbar_bg="6,6,6"
+LeftSidebar_Node_bg="22,55,35"
+LeftSidebar_Node_fg="85,255,142"
+
+LeftSidebar_Scrollbar_Lowlight="6,6,6"
+LeftSidebar_Scrollbar_Highlight="35,35,35"
+
+ThumbnailBrowser_bg="0,0,0"
+ThumbnailBrowser_fg="71,237,110"
+ThumbnailBrowser_Line_Lowlight_bg="22,55,35"
+ThumbnailBrowser_Line_Lowlight_fg="85,255,142"
+ThumbnailBrowser_Thumbnail="100,191,123"
+
+ThumbnailBrowser_Scrollbar_Lowlight="6,6,6"
+ThumbnailBrowser_Scrollbar_Highlight="35,35,35"
+
+ColumnBrowser_bg="0,0,0"
+ColumnBrowser_fg="71,237,110"
+ColumnBrowser_Headerbar_bg="6,6,6"
+ColumnBrowser_Headerbar_fg="100,191,123"
+ColumnBrowser_Line_Lowlight_bg="22,55,35"
+ColumnBrowser_Line_Lowlight_fg="85,255,142"
+
+ColumnBrowser_Scrollbar_Lowlight="6,6,6"
+ColumnBrowser_Scrollbar_Highlight="35,35,35"
+
+MainPanel_Tracks_bg="0,0,0"
+MainPanel_Tracks_fg="71,237,110"
+MainPanel_Tracks_Headerbar_bg="6,6,6"
+MainPanel_Tracks_Headerbar_fg="100,191,123"
+MainPanel_Tracks_Headerbar_bdr="6,6,6"
+MainPanel_Tracks_Header="85,255,142"
+MainPanel_Tracks_Line_Highlight_fg="85,255,142"
+MainPanel_Tracks_Line_Lowlight_bg="22,55,35"
+MainPanel_Tracks_Line_Lowlight_fg="85,255,142"
+MainPanel_Tracks_Line_Disabled_fg="85,139,99"
+MainPanel_Tracks_Splitterline="30,80,50"
+MainPanel_Tracks_Separatorline="0,0,0"
+
+MainPanel_Tracks_Scrollbar_Lowlight="6,6,6"
+MainPanel_Tracks_Scrollbar_Highlight="35,35,35"
+
+MainPanel_Albums_bg="0,0,0"
+MainPanel_Albums_fg="71,237,110"
+MainPanel_Albums_Splitterline="30,80,50"
+
+MainPanel_Albums_Scrollbar_Lowlight="6,6,6"
+MainPanel_Albums_Scrollbar_Highlight="35,35,35"
+
+MainPanel_Rating_Tracks_Sel_Highlight="0,0,0"
+MainPanel_Rating_Tracks_Sel_Lowlight="71,237,110"
+MainPanel_Rating_Tracks_No_Highlight="30,100,55"
+MainPanel_Rating_Albums_Lowlight="6,6,6"
+
+PlayingTracksPanel_bg="0,0,0"
+PlayingTracksPanel_fg="71,237,110"
+PlayingTracksPanel_Headerbar_bg="6,6,6"
+PlayingTracksPanel_Headerbar_fg="85,255,142"
+PlayingTracksPanel_Splitterline="30,80,50"
+PlayingTracksPanel_Line_Highlight_fg="85,255,142"
+PlayingTracksPanel_Line_Lowlight_bg="22,55,35"
+PlayingTracksPanel_Line_Lowlight_fg="85,255,142"
+PlayingTracksPanel_Line_Disabled_fg="80,132,94"
+
+PlayingTracksPanel_Scrollbar_Lowlight="6,6,6"
+PlayingTracksPanel_Scrollbar_Highlight="35,35,35"
+
+Infopanels_bg="0,0,0"
+Infopanels_fg="71,237,110"
+Infopanels_Tracks_Headerbar_bg="6,6,6"
+Infopanels_Tracks_Headerbar_fg="100,191,123"
+Infopanels_Tracks_Headerbar_Selector_bg="0,0,0"
+Infopanels_Tracks_Headerbar_Selector_fg="71,237,110"
+Infopanels_Tracks_Headerbar_bdr="6,6,6"
+
+Infopanels_Scrollbar_Lowlight="6,6,6"
+Infopanels_Scrollbar_Highlight="35,35,35"
+
+Infopanels_Visualisations_High="85,255,142"
+Infopanels_Visualisations_Low="55,135,83"
+
+LibraryExplorer_and_NowPlaying_bg="0,0,0"
+LibraryExplorer_and_NowPlaying_fg="71,237,110"
+LibraryExplorer_and_NowPlaying_Highlight_bg="22,55,35"
+LibraryExplorer_and_NowPlaying_Highlight_fg="85,255,142"
+
+LibraryExplorer_and_NowPlaying_Scrollbar_Lowlight="18,18,18"
+LibraryExplorer_and_NowPlaying_Scrollbar_Highlight="35,35,35"
+
+VertTagEditor_bg="0,0,0"
+VertTagEditor_fg="71,237,110"
+
+Playerpanel_Background_Default="0,0,0"
+Playerpanel_Background_Middle="0,0,0"
+Playerpanel_Text_Default="85,255,142"
+Playerpanel_Text_Medium="100,191,123"
+Playerpanel_Text_Low="100,191,123"
+Playerpanel_Controls_Highlight="85,255,142"
+Playerpanel_Controls_Default="71,237,110"
+Playerpanel_Controls_Disabled="50,90,62"
+Playerpanel_Element_High="85,255,142"
+Playerpanel_Element_Medium="76,110,89"
+Playerpanel_Element_Low="21,58,36"
+
+Statusbar_bg="0,0,0"
+Statusbar_fg="100,191,123"
+
+ConfigPanels_bg="0,0,0"
+ConfigPanels_fg="71,237,110"
+ConfigPanels_Lowlight_fg="100,191,123"
+ConfigPanels_Highlight_fg="85,255,142"
+ConfigPanels_PanelsLayout_bg="6,6,6"
+ConfigPanels_Input_bg="6,6,6"
+ConfigPanels_Input_fg="71,237,110"
+ConfigPanels_Input_Disabled_bg="0,0,0"
+ConfigPanels_Input_Disabled_fg="80,132,94"
+ConfigPanels_Input_Modified="245,158,11"
+ConfigPanels_Splitterline="30,80,50"
+ConfigPanels_Separatorline="6,6,6"
+ConfigPanels_Buttons_bg="6,6,6"
+ConfigPanels_Buttons_fg="71,237,110"
+
+ConfigPanels_Scrollbar_Lowlight="6,6,6"
+ConfigPanels_Scrollbar_Highlight="35,35,35"
+
+LibraryIcons="71,237,110"
+
+Unknown="239,68,68"
+
+</variables>
+
+<colours id="Default">
+
+ <element id="TitlebarActiveForeColour" bg="Mainpanel_Headerbar_fg" />
+ <element id="TitlebarInactiveForeColour" bg="Mainpanel_Headerbar_fg" />
+
+ <element id="ApplicationBackColour" bg="20,200,20" />
+ <element id="WindowBackColour" bg="ConfigPanels_bg" />
+
+ <element
+            id="HeaderBar"
+            bg="Mainpanel_Headerbar_bg"
+            bg2="Mainpanel_Headerbar_bg"
+            fg="Mainpanel_Headerbar_fg"
+            bdr="Mainpanel_Headerbar_bg"
+        />
+
+ <element
+            id="Menu.CommandButton.Selected"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+
+ <element
+            id="Menu.DropDown.Default"
+            bg="ConfigPanels_bg"
+            fg="ConfigPanels_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Menu.DropDown.Highlight"
+            bg="Phosphor_Hover"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element id="Menu.DropDown.Disabled" fg="ConfigPanels_Input_Disabled_fg" />
+ <element id="Menu.DropDown.HighlightText" fg="ConfigPanels_Highlight_fg" />
+ <element
+            id="Menu.DropDownCheckBox.Default"
+            bg="ConfigPanels_Input_Disabled_bg"
+        />
+ <element
+            id="Menu.DropDownCheckBox.Highlight"
+            bg="Phosphor_Hover"
+        />
+ <element
+            id="Menu.DropDownCheckBoxBorder.Default"
+            bdr="ConfigPanels_Input_bg"
+        />
+ <element
+            id="Menu.DropDownCheckBoxBorder.Highlight"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element id="Menu.DropDownCheckBoxImage" fg="ConfigPanels_Input_fg" />
+ <element id="Menu.DropDownMargin" bg="ConfigPanels_Input_bg" />
+ <element id="Menu.DropDownSeparator" bg="ConfigPanels_Separatorline" />
+
+ <element
+            id="Menu.ParentItem.Highlight"
+            bg="Phosphor_Hover"
+            fg="ConfigPanels_Highlight_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Menu.ParentItem.Pressed"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+
+ <element
+            id="MenuBar.Default"
+            bg="Mainpanel_Headerbar_bg"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+        />
+
+ <element id="MenuBarSeparator" bg="Unknown" />
+
+ <element
+            id="MenuButton.Default"
+            bg="Mainpanel_Headerbar_bg"
+            bg2="Mainpanel_Headerbar_bg"
+            fg="Mainpanel_Headerbar_fg"
+            bdr="Mainpanel_Headerbar_Disabled_fg"
+        />
+ <element id="MenuIcon" fg="Mainpanel_Headerbar_fg" />
+
+ <element
+            id="Menu.Header"
+            bg="ConfigPanels_Input_bg"
+            fg="ConfigPanels_Input_fg"
+        />
+
+ <element id="LibraryFilterTick" fg="LeftSidebar_fg" />
+
+ <element id="CaptionBar.HeaderControl.Default" fg="Mainpanel_Headerbar_fg" />
+ <element
+            id="CaptionBar.HeaderControl.Disabled"
+            fg="Mainpanel_Headerbar_Disabled_fg"
+        />
+
+ <element
+            id="CaptionBar.CommandButtonOverride"
+            bg="Mainpanel_Headerbar_Buttons_bg"
+            fg="Mainpanel_Headerbar_fg"
+        />
+ <element id="CaptionBar.CommandIconOverride" fg="Mainpanel_Headerbar_fg" />
+
+ <element
+            id="CaptionBar.SearchBox.Default"
+            bg="Searchpanels_Active_bg"
+            fg="Mainpanel_Headerbar_Highlight_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="CaptionBar.SearchBox.Lowlight"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+        />
+ <element
+            id="CaptionBar.SearchBox.NotActivated"
+            bg="Mainpanel_Headerbar_Lowlight_bg"
+            bdr="Phosphor_ControlBorder"
+        />
+
+ <element
+            id="PreferencesPanel.Default"
+            bg="ConfigPanels_bg"
+            bdr="ConfigPanels_bg"
+        />
+
+ <element
+            id="InlineMenu.ParentItem.Highlight"
+            bg="Phosphor_Hover"
+            fg="ConfigPanels_Highlight_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="InlineMenu.ParentItem.Pressed"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+
+ <element id="InlineMenuBar.Default" fg="Mainpanel_Headerbar_Lowlight_fg" />
+
+ <element
+            id="TagEditorPanel.Header"
+            bg="ConfigPanels_bg"
+            fg="ConfigPanels_fg"
+        />
+ <element id="TagEditorPanel.MenuLine" bg="ConfigPanels_Input_Disabled_bg" />
+ <element id="TagEditorPanel.FaintLine" bg="ConfigPanels_Splitterline" />
+ <element id="TagEditorWindowBackground" bg="ConfigPanels_bg" />
+
+ <element id="VerticalTagEditor" bg="VertTagEditor_bg" fg="VertTagEditor_fg" />
+
+ <element
+            id="InputPanel.Default"
+            bg="ConfigPanels_bg"
+            fg="ConfigPanels_fg"
+            bdr="ConfigPanels_bg"
+        />
+ <element id="InputPanel.Highlight" fg="ConfigPanels_fg" />
+
+ <element id="AzBar.Default" fg="Mainpanel_Headerbar_fg" />
+ <element id="AzBar.Lowlight" fg="Mainpanel_Headerbar_Lowlight_fg" />
+
+ <element id="Content[AlbumAndTracks].Header" fg="MainPanel_Tracks_Header" />
+ <element id="Content[AlbumAndTracks].SubHeader" fg="MainPanel_Tracks_Header" />
+ <element
+            id="Content[AlbumAndTracks].ArtistSplitterLine"
+            bg="MainPanel_Tracks_Splitterline"
+            bg2="MainPanel_Tracks_Splitterline"
+        />
+ <element
+            id="Content[AlbumAndTracks].ArtistSplitterLineLR"
+            bg="MainPanel_Tracks_Splitterline"
+            bg2="MainPanel_Tracks_Splitterline"
+        />
+ <element id="Content[AlbumAndTracks].ArtworkText" fg="MainPanel_Tracks_fg" />
+ <element
+            id="Content[AlbumAndTracks].ItemSeparatorLine"
+            fg="MainPanel_Tracks_Separatorline"
+        />
+ <element
+            id="Content[AlbumAndTracks].GridHeaderSplitterLine"
+            bg="MainPanel_Tracks_Splitterline"
+        />
+ <element
+            id="Content[AlbumAndTracks].GridTrackSplitterLine"
+            bg="MainPanel_Tracks_Separatorline"
+        />
+
+ <element id="Content[Artwork].GroupingHeader" fg="MainPanel_Albums_fg" />
+ <element
+            id="Content[Artwork].SplitterLine"
+            bg="MainPanel_Albums_Splitterline"
+            bg2="MainPanel_Albums_Splitterline"
+        />
+ <element
+            id="Content[Artwork].Body.Default"
+            bg="MainPanel_Albums_bg"
+            fg="MainPanel_Albums_fg"
+        />
+ <element id="Content[Artwork].Body.Highlight" bg="Phosphor_Selected_bg" />
+ <element
+            id="Content[Artwork].Body.Lowlight"
+            bg="Phosphor_InactiveSelection"
+        />
+ <element
+            id="Content[Artwork].ArtworkText"
+            bg="MainPanel_Rating_Albums_Lowlight"
+            fg="MainPanel_Albums_fg"
+        />
+ <element
+            id="Content[Artwork].HeaderControl.Default"
+            bg="ConfigPanels_fg"
+            bg2="ConfigPanels_fg"
+            fg="Phosphor_Selected_fg"
+            bdr="ConfigPanels_bg"
+        />
+ <element
+            id="Content[Artwork].ScrollBar"
+            bg="MainPanel_Albums_Scrollbar_Highlight"
+            bg2="MainPanel_Albums_Scrollbar_Highlight"
+            bdr="MainPanel_Albums_Scrollbar_Highlight"
+        />
+ <element
+            id="Content[Artwork].ScrollBarThumb"
+            bg="MainPanel_Albums_bg"
+            bg2="MainPanel_Albums_bg"
+            fg="MainPanel_Albums_Scrollbar_Lowlight"
+            bdr="MainPanel_Albums_bg"
+        />
+ <element
+            id="Content[Artwork].ScrollBarBackground"
+            bg="MainPanel_Albums_bg"
+            bg2="MainPanel_Albums_bg"
+        />
+ <element
+            id="Content[Artwork].ScrollBar.Lowlight"
+            bg="MainPanel_Albums_Scrollbar_Lowlight"
+            bdr="MainPanel_Albums_bg"
+        />
+
+ <element
+            id="Content[Artwork].Expanded"
+            bg="MainPanel_Rating_Albums_Lowlight"
+            fg="MainPanel_Albums_fg"
+            fg2="MainPanel_Albums_fg"
+        />
+ <element
+            id="Content[Artwork].Expanded.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+ <element
+            id="Content[Artwork].Expanded.Lowlight"
+            bg="Phosphor_InactiveSelection"
+            fg="ConfigPanels_Highlight_fg"
+        />
+ <element
+            id="Content[Artwork].GroupingHeaderFile"
+            bg="MainPanel_Rating_Albums_Lowlight"
+            fg="MainPanel_Albums_fg"
+        />
+
+ <element
+            id="Content[TrackDetail].Body.Default"
+            bg="MainPanel_Tracks_bg"
+            fg="MainPanel_Tracks_fg"
+            bdr="Panels_PanelDividers"
+        />
+ <element
+            id="Content[TrackDetail].Body.Disabled"
+            fg="MainPanel_Tracks_Line_Disabled_fg"
+        />
+ <element
+            id="Content[TrackDetail].Body.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="Content[TrackDetail].Body.ListHeader"
+            bg="MainPanel_Tracks_Headerbar_bg"
+            bg2="MainPanel_Tracks_Headerbar_bg"
+            fg="MainPanel_Tracks_Headerbar_fg"
+            bdr="MainPanel_Tracks_bg"
+        />
+ <element
+            id="Content[TrackDetail].Body.Lowlight"
+            bg="MainPanel_Tracks_Line_Lowlight_bg"
+            fg="MainPanel_Tracks_Line_Lowlight_fg"
+            bdr="MainPanel_Tracks_bg"
+        />
+ <element
+            id="Content[TrackDetail].ItemSeparatorLine"
+            fg="MainPanel_Tracks_Separatorline"
+        />
+ <element
+            id="Content[TrackDetail].ListAlternating.Default"
+            bg="MainPanel_Tracks_bg"
+            fg="MainPanel_Tracks_fg"
+        />
+ <element
+            id="Content[TrackDetail].ListAlternating.Disabled"
+            fg="MainPanel_Tracks_Line_Disabled_fg"
+        />
+ <element id="Content[TrackDetail].Header" fg="MainPanel_Tracks_Header" />
+ <element
+            id="Content[TrackDetail].HeaderLine"
+            bg="MainPanel_Tracks_Splitterline"
+            bg2="MainPanel_Tracks_Splitterline"
+        />
+
+ <element id="Controls.AlbumThumb" fg="ThumbnailBrowser_Thumbnail" />
+ <element id="Controls.GenreThumb" fg="ThumbnailBrowser_Thumbnail" />
+
+ <element id="Controls.ArtworkFrame" bdr="0,20,200,20" />
+
+ <element
+            id="Controls.Button.Default"
+            bg="ConfigPanels_Buttons_bg"
+            bg2="ConfigPanels_Buttons_bg"
+            fg="ConfigPanels_Buttons_fg"
+            fg2="ConfigPanels_bg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Controls.Button.Highlight"
+            bg="Phosphor_Hover"
+            fg="ConfigPanels_Highlight_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Controls.Button.Disabled"
+            bg="ConfigPanels_Input_Disabled_bg"
+            fg="ConfigPanels_Input_Disabled_fg"
+            bdr="ConfigPanels_Input_Disabled_bg"
+        />
+
+ <element id="Controls.Arrow.Default" fg="ConfigPanels_fg" />
+ <element id="Controls.Arrow.Highlight" fg="ConfigPanels_Highlight_fg" />
+
+ <element
+            id="Controls.Counter"
+            bg="LeftSidebar_Node_bg"
+            fg="LeftSidebar_Lowlight_fg"
+        />
+ <element
+            id="Controls.DropdownButton.Default"
+            bg="ConfigPanels_Input_bg"
+            bg2="ConfigPanels_Input_bg"
+            fg="ConfigPanels_Input_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Controls.DropdownButton.Disabled"
+            bg="ConfigPanels_Input_Disabled_bg"
+            bg2="ConfigPanels_Input_Disabled_bg"
+            fg="ConfigPanels_Input_Disabled_bg"
+            bdr="ConfigPanels_Input_Disabled_bg"
+        />
+ <element id="Controls.FaintLine" bg="ConfigPanels_Splitterline" />
+
+ <element id="Controls.PanelLayoutArea" bg="ConfigPanels_PanelsLayout_bg" />
+
+ <element id="Controls.DropAreaIndicator" fg="ConfigPanels_fg" />
+ <element id="Controls.DropRowIndicator" fg="ConfigPanels_fg" />
+ <element
+            id="Controls.LargeTickBoxFill"
+            bg="ConfigPanels_Input_bg"
+            bdr="ConfigPanels_Separatorline"
+        />
+
+ <element
+            id="Controls.SubscriptionCounter"
+            bg="ThumbnailBrowser_Line_Lowlight_bg"
+            fg="ThumbnailBrowser_fg"
+        />
+ <element id="Controls.EpisodeNotPlayed" bg="ThumbnailBrowser_fg" />
+ <element id="Controls.EpisodeDownloading" fg="ThumbnailBrowser_fg" />
+
+ <element
+            id="Controls.InputControl.Default"
+            bg="ConfigPanels_Input_bg"
+            fg="ConfigPanels_Input_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Controls.InputControl.Highlight"
+            bg="Phosphor_Hover"
+            fg="ConfigPanels_Highlight_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="Controls.InputControl.Disabled"
+            bg="ConfigPanels_Input_Disabled_bg"
+            fg="ConfigPanels_Input_Disabled_fg"
+            bdr="ConfigPanels_bg"
+        />
+ <element
+            id="Controls.InputControl.Lowlight"
+            bg="ConfigPanels_Input_Disabled_bg"
+            fg="ConfigPanels_Input_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Controls.InputControl.Modified"
+            fg="ConfigPanels_Input_Modified"
+        />
+
+ <element
+            id="Controls.ListHeader"
+            bg="ConfigPanels_bg"
+            bg2="ConfigPanels_bg"
+            fg="ConfigPanels_fg"
+        />
+
+ <element id="Controls.RadioButton.Default" bg="ConfigPanels_Input_fg" />
+ <element
+            id="Controls.RadioButton.Disabled"
+            bg="ConfigPanels_Input_Disabled_fg"
+        />
+
+ <element
+            id="Controls.ScrollBar.Default"
+            bg="ConfigPanels_Scrollbar_Highlight"
+            bg2="ConfigPanels_Scrollbar_Highlight"
+        />
+ <element
+            id="Controls.ScrollBarBackground.Default"
+            bg="ConfigPanels_Input_bg"
+            bg2="ConfigPanels_Input_bg"
+        />
+ <element
+            id="Controls.ScrollBarThumb.Default"
+            bg="ConfigPanels_Input_bg"
+            bg2="ConfigPanels_Input_bg"
+            fg="ConfigPanels_Scrollbar_Lowlight"
+            bdr="ConfigPanels_Input_bg"
+        />
+ <element
+            id="Controls.ScrollBar.Lowlight"
+            bg="ConfigPanels_Scrollbar_Lowlight"
+        />
+
+ <element
+            id="Controls.SearchBox.Default"
+            bg="Searchpanels_Active_bg"
+            fg="Mainpanel_Headerbar_fg"
+        />
+ <element
+            id="Controls.SearchBox.Lowlight"
+            bg="Mainpanel_Headerbar_Lowlight_bg"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+        />
+ <element
+            id="Controls.SearchBoxSplitter"
+            bg="Mainpanel_Headerbar_Lowlight_fg"
+        />
+
+ <element
+            id="Panel.SearchBox.NotActivated"
+            bg="Mainpanel_Headerbar_Lowlight_bg"
+            bg2="Mainpanel_Headerbar_Lowlight_bg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element id="Panel.SearchBox" bdr="Phosphor_FocusBorder" />
+
+ <element
+            id="Controls.FindButton.Default"
+            bg="PlayingTracksPanel_bg"
+            fg="PlayingTracksPanel_Line_Highlight_fg"
+        />
+ <element
+            id="Panel.SubHeader.Default"
+            bg="PlayingTracksPanel_bg"
+            fg="PlayingTracksPanel_fg"
+        />
+
+ <element
+            id="Controls.SliderButton.Default"
+            bg="ConfigPanels_fg"
+            bdr="ConfigPanels_bg"
+        />
+ <element
+            id="Controls.SliderButton.Disabled"
+            bg="ConfigPanels_Input_Disabled_fg"
+            bdr="ConfigPanels_bg"
+        />
+ <element id="Controls.SliderBar.Default" fg="ConfigPanels_Splitterline" />
+ <element
+            id="Controls.SliderBar.Disabled"
+            fg="ConfigPanels_Input_Disabled_bg"
+        />
+
+ <element
+            id="Controls.StarRating.Default"
+            bg="ConfigPanels_Input_bg"
+            fg="ConfigPanels_Input_fg"
+            fg2="ConfigPanels_Input_Disabled_bg"
+            bdr="ConfigPanels_bg"
+        />
+
+ <element
+            id="Controls.TabHeader.Default"
+            bg="ConfigPanels_bg"
+            fg="ConfigPanels_Lowlight_fg"
+            bdr="Unknown"
+        />
+ <element
+            id="Controls.TabHeader.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+ <element id="Controls.TabHeader.Lowlight" bg="Phosphor_InactiveSelection" />
+ <element id="Controls.TabHeader.Inactive" bdr="ConfigPanels_bg" />
+
+ <element
+            id="Controls.VerticalMenu.Default"
+            bg="ConfigPanels_bg"
+            fg="ConfigPanels_fg"
+            bdr="ConfigPanels_Separatorline"
+        />
+ <element
+            id="Controls.VerticalMenu.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+ <element
+            id="Controls.VerticalMenu.Lowlight"
+            bg="Phosphor_InactiveSelection"
+            fg="ConfigPanels_Highlight_fg"
+        />
+
+ <element
+            id="Controls.DropdownButton.Highlight"
+            bg="Phosphor_Hover"
+            bg2="Phosphor_Hover"
+            fg="ConfigPanels_Highlight_fg"
+            bdr="Phosphor_ControlBorder"
+        />
+ <element
+            id="Controls.CheckBoxInList"
+            bg="ConfigPanels_Input_Disabled_bg"
+            bdr="ConfigPanels_Lowlight_fg"
+        />
+
+ <element id="Toolbar.Background" bg="Unknown" />
+ <element id="Toolbar.Body" bg="ConfigPanels_bg" />
+ <element id="Toolbar.MenuTextOverride" fg="ConfigPanels_fg" />
+
+ <element
+            id="FilterPanel.ListHeader"
+            bg="ThumbnailBrowser_bg"
+            bg2="ThumbnailBrowser_bg"
+            fg="ThumbnailBrowser_fg"
+            bdr="Panels_PanelDividers"
+        />
+ <element
+            id="FilterPanel.Default"
+            bg="ThumbnailBrowser_bg"
+            fg="ThumbnailBrowser_fg"
+            bdr="Unknown"
+        />
+ <element
+            id="FilterPanel.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="FilterPanel.Lowlight"
+            bg="Phosphor_InactiveSelection"
+            fg="ThumbnailBrowser_Line_Lowlight_fg"
+            bdr="ThumbnailBrowser_bg"
+        />
+ <element
+            id="FilterPanel.ListAlternating.Default"
+            bg="ThumbnailBrowser_bg"
+            fg="ThumbnailBrowser_fg"
+        />
+ <element
+            id="FilterPanel.ScrollBar"
+            bg="ThumbnailBrowser_Scrollbar_Highlight"
+            bg2="ThumbnailBrowser_Scrollbar_Highlight"
+            bdr="ThumbnailBrowser_Scrollbar_Highlight"
+        />
+ <element
+            id="FilterPanel.ScrollBarThumb"
+            bg="ThumbnailBrowser_bg"
+            bg2="ThumbnailBrowser_bg"
+            fg="ThumbnailBrowser_Scrollbar_Lowlight"
+            bdr="ThumbnailBrowser_bg"
+        />
+ <element
+            id="FilterPanel.ScrollBarBackground"
+            bg="ThumbnailBrowser_bg"
+            bg2="ThumbnailBrowser_bg"
+        />
+ <element
+            id="FilterPanel.ScrollBar.Lowlight"
+            bg="ThumbnailBrowser_Scrollbar_Lowlight"
+            bg2="ThumbnailBrowser_Scrollbar_Lowlight"
+            bdr="ThumbnailBrowser_bg"
+        />
+
+ <element
+            id="ColumnBrowser.ListHeader"
+            bg="ColumnBrowser_Headerbar_bg"
+            bg2="ColumnBrowser_Headerbar_bg"
+            fg="ColumnBrowser_Headerbar_fg"
+            bdr="ColumnBrowser_bg"
+        />
+ <element
+            id="ColumnBrowser.Default"
+            bg="ColumnBrowser_bg"
+            fg="ColumnBrowser_fg"
+        />
+ <element
+            id="ColumnBrowser.ListAlternating.Default"
+            bg="ColumnBrowser_bg"
+            fg="ColumnBrowser_fg"
+        />
+ <element
+            id="ColumnBrowser.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="ColumnBrowser.Lowlight"
+            bg="ColumnBrowser_Line_Lowlight_bg"
+            fg="ColumnBrowser_Line_Lowlight_fg"
+            fg2="ColumnBrowser_Line_Lowlight_fg"
+            bdr="ColumnBrowser_bg"
+        />
+ <element
+            id="ColumnBrowser.ScrollBar"
+            bg="ColumnBrowser_Scrollbar_Highlight"
+            bg2="ColumnBrowser_Scrollbar_Highlight"
+            bdr="ColumnBrowser_bg"
+        />
+ <element
+            id="ColumnBrowser.ScrollBarThumb"
+            bg="ColumnBrowser_bg"
+            bg2="ColumnBrowser_bg"
+            fg="ColumnBrowser_Scrollbar_Lowlight"
+            bdr="ColumnBrowser_bg"
+        />
+ <element
+            id="ColumnBrowser.ScrollBarBackground"
+            bg="ColumnBrowser_bg"
+            bg2="ColumnBrowser_bg"
+        />
+ <element
+            id="ColumnBrowser.ScrollBar.Lowlight"
+            bg="ColumnBrowser_Scrollbar_Lowlight"
+            bg2="ColumnBrowser_Scrollbar_Lowlight"
+            bdr="ColumnBrowser_bg"
+        />
+
+ <element
+            id="ColumnBrowser.BottomBorderLine"
+            bdr="MainPanel_Tracks_Headerbar_bdr"
+        />
+
+ <element
+            id="Panel.CommandButtonOverride"
+            bg="Mainpanel_Headerbar_Buttons_bg"
+            fg="Mainpanel_Headerbar_fg"
+        />
+ <element id="Panel.CommandIconOverride" fg="Mainpanel_Headerbar_fg" />
+
+ <element
+            id="Panel.Body.Default"
+            bg="LeftSidebar_bg"
+            fg="LeftSidebar_fg"
+            bdr="Panels_PanelDividers"
+        />
+ <element
+            id="Panel.Body.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="Panel.Body.Lowlight"
+            bg="Phosphor_InactiveSelection"
+            fg="LeftSidebar_Node_fg"
+            bdr="Phosphor_InactiveSelection"
+        />
+
+ <element
+            id="Panel.Header.Default"
+            bg="Mainpanel_Headerbar_bg"
+            fg="ConfigPanels_fg"
+        />
+ <element id="Panel.HeaderButtonOverride.Default" fg="Mainpanel_Headerbar_fg" />
+ <element
+            id="Panel.HeaderButtonOverride.Highlight"
+            bg="Mainpanel_Headerbar_Buttons_Highlight_bg"
+            fg="Mainpanel_Headerbar_fg"
+        />
+ <element
+            id="Panel.HeaderButtonOverride.Disabled"
+            fg="Mainpanel_Headerbar_Disabled_fg"
+        />
+
+ <element
+            id="Panel.HeaderControl.Default"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+            bdr="Unknown"
+        />
+ <element
+            id="Panel.HeaderControl.Highlight"
+            bg="Unknown"
+            bg2="Unknown"
+            fg="Unknown"
+            bdr="Unknown"
+        />
+
+ <element
+            id="Panel.ChildBody.Default"
+            bg="LibraryExplorer_and_NowPlaying_bg"
+            fg="LibraryExplorer_and_NowPlaying_fg"
+        />
+ <element
+            id="Panel.ChildBody.Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="Panel.ChildBody.Lowlight"
+            bg="LibraryExplorer_and_NowPlaying_Highlight_bg"
+            fg="LibraryExplorer_and_NowPlaying_Highlight_fg"
+            bdr="LibraryExplorer_and_NowPlaying_bg"
+        />
+
+ <element
+            id="Panel.ChildBody.ScrollBar"
+            bg="LibraryExplorer_and_NowPlaying_Scrollbar_Highlight"
+            bg2="LibraryExplorer_and_NowPlaying_Scrollbar_Highlight"
+            bdr="LibraryExplorer_and_NowPlaying_Scrollbar_Highlight"
+        />
+ <element
+            id="Panel.ChildBody.ScrollBarThumb"
+            bg="LibraryExplorer_and_NowPlaying_bg"
+            bg2="LibraryExplorer_and_NowPlaying_bg"
+            fg="LibraryExplorer_and_NowPlaying_Scrollbar_Lowlight"
+            bdr="LibraryExplorer_and_NowPlaying_bg"
+        />
+ <element
+            id="Panel.ChildBody.ScrollBarBackground"
+            bg="LibraryExplorer_and_NowPlaying_bg"
+            bg2="LibraryExplorer_and_NowPlaying_bg"
+        />
+ <element
+            id="Panel.ChildBody.ScrollBar.Lowlight"
+            bg="LibraryExplorer_and_NowPlaying_Scrollbar_Lowlight"
+            bg2="LibraryExplorer_and_NowPlaying_Scrollbar_Lowlight"
+            bdr="LibraryExplorer_and_NowPlaying_bg"
+        />
+
+ <element
+            id="Panel.ChildHeader.Default"
+            bg="Infopanels_Tracks_Headerbar_bg"
+            bg2="Infopanels_Tracks_Headerbar_bg"
+            fg="Infopanels_Tracks_Headerbar_fg"
+            bdr="Infopanels_Tracks_Headerbar_bdr"
+        />
+
+ <element id="TrackInfoPanel" bg="6,6,6" />
+
+ <element
+            id="Panel.TabButton.Default"
+            bg="Infopanels_Tracks_Headerbar_Selector_bg"
+            bg2="Infopanels_Tracks_Headerbar_Selector_bg"
+            fg="Infopanels_Tracks_Headerbar_Selector_fg"
+        />
+
+ <element id="Content[ArtistProfile]" bg="Unknown" />
+
+ <element
+            id="Panel.NotLovedIcon.Highlight"
+            fg="MainPanel_Tracks_Line_Highlight_fg"
+            fg2="MainPanel_Rating_Tracks_No_Highlight"
+        />
+ <element
+            id="Panel.NotLovedIcon.Lowlight"
+            fg2="MainPanel_Tracks_Line_Lowlight_bg"
+        />
+
+ <element id="Panel.LovedIcon.Highlight" fg="Phosphor_Selected_fg" fg2="Phosphor_Selected_fg" />
+ <element id="Panel.LovedIcon.Lowlight" fg="ConfigPanels_Highlight_fg" />
+
+ <element
+            id="Panel.ScrollBar.Default"
+            bg="MainPanel_Tracks_Scrollbar_Highlight"
+            bg2="MainPanel_Tracks_Scrollbar_Highlight"
+            bdr="MainPanel_Tracks_Scrollbar_Highlight"
+        />
+ <element
+            id="Panel.ScrollBarBackground.Default"
+            bg="MainPanel_Tracks_bg"
+            bg2="MainPanel_Tracks_bg"
+        />
+ <element
+            id="Panel.ScrollBarThumb.Default"
+            bg="MainPanel_Tracks_bg"
+            bg2="MainPanel_Tracks_bg"
+            fg="MainPanel_Tracks_Scrollbar_Lowlight"
+            bdr="MainPanel_Tracks_bg"
+        />
+ <element
+            id="Panel.ScrollBar.Lowlight"
+            bg="MainPanel_Tracks_Scrollbar_Lowlight"
+            bg2="MainPanel_Tracks_Scrollbar_Lowlight"
+            bdr="MainPanel_Tracks_bg"
+        />
+
+ <element
+            id="Panel.SectionHeader.Default"
+            bg="LeftSidebar_Headerbar_bg"
+            bg2="LeftSidebar_Headerbar_bg"
+            fg="LeftSidebar_fg"
+        />
+
+ <element
+            id="Panel.StarRating.Default"
+            fg="MainPanel_Tracks_Header"
+            fg2="MainPanel_Rating_Albums_Lowlight"
+        />
+ <element
+            id="Panel.StarRating.Highlight"
+            fg="MainPanel_Rating_Tracks_Sel_Highlight"
+            fg2="MainPanel_Rating_Tracks_No_Highlight"
+        />
+ <element
+            id="Panel.StarRating.Lowlight"
+            fg="MainPanel_Rating_Tracks_Sel_Lowlight"
+            fg2="MainPanel_Tracks_Line_Lowlight_bg"
+        />
+
+ <element
+            id="Panel.StatusBar.Default"
+            bg="MainPanel_Albums_bg"
+            bg2="MainPanel_Albums_bg"
+            fg="Statusbar_fg"
+            bdr="Mainpanel_Headerbar_bg"
+        />
+ <element id="Panel.StatusBarControl.Default" fg="Statusbar_fg" />
+ <element
+            id="Panel.StatusBarInPanel.Default"
+            bg="Statusbar_bg"
+            bg2="Statusbar_bg"
+            fg="Statusbar_fg"
+            bdr="Statusbar_bg"
+        />
+ <element id="Panel.StatusBarControlInPanel.Default" fg="Statusbar_fg" />
+ <element
+            id="Panel.StatusBarBelowPlayer.Default"
+            bg="Statusbar_bg"
+            bg2="Statusbar_bg"
+            fg="Statusbar_fg"
+            bdr="Statusbar_bg"
+        />
+ <element id="Panel.StatusBarControlBelowPlayer.Default" fg="Statusbar_fg" />
+
+ <element
+            id="RadioAndAutoDjPanel"
+            bg="ConfigPanels_Input_bg"
+            fg="ConfigPanels_Input_fg"
+        />
+
+ <element
+            id="Panel.TabSelector.Highlight"
+            bg="Phosphor_Selected_bg"
+            bg2="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="Panel.TabSelector.Default"
+            fg="Infopanels_Tracks_Headerbar_Selector_fg"
+            bdr="ConfigPanels_Input_bg"
+        />
+ <element
+            id="Panel.TabSelector.Lowlight"
+            bg="Phosphor_InactiveSelection"
+            bg2="Phosphor_InactiveSelection"
+            fg="ConfigPanels_Highlight_fg"
+            bdr="Phosphor_InactiveSelection"
+        />
+ <element id="ElementPanel.Default" bg="Infopanels_bg" fg="Infopanels_fg" />
+ <element
+            id="ElementPanel.ScrollBar"
+            bg="Infopanels_Scrollbar_Highlight"
+            bg2="Infopanels_Scrollbar_Highlight"
+            bdr="Infopanels_Scrollbar_Highlight"
+        />
+ <element
+            id="ElementPanel.ScrollBarThumb"
+            bg="Infopanels_bg"
+            bg2="Infopanels_bg"
+            fg="Infopanels_Scrollbar_Lowlight"
+            bdr="Infopanels_bg"
+        />
+ <element
+            id="ElementPanel.ScrollBarBackground"
+            bg="Infopanels_bg"
+            bg2="Infopanels_bg"
+        />
+ <element
+            id="ElementPanel.ScrollBar.Lowlight"
+            bg="Infopanels_Scrollbar_Lowlight"
+            bg2="Infopanels_Scrollbar_Lowlight"
+            bdr="Infopanels_bg"
+        />
+
+ <element
+            id="LeftNavigator.ScrollBar"
+            bg="LeftSidebar_Scrollbar_Highlight"
+            bg2="LeftSidebar_Scrollbar_Highlight"
+            bdr="LeftSidebar_Scrollbar_Highlight"
+        />
+ <element
+            id="LeftNavigator.ScrollBarThumb"
+            bg="LeftSidebar_bg"
+            bg2="LeftSidebar_bg"
+            fg="LeftSidebar_Scrollbar_Lowlight"
+            bdr="LeftSidebar_bg"
+        />
+ <element
+            id="LeftNavigator.ScrollBarBackground"
+            bg="LeftSidebar_bg"
+            bg2="LeftSidebar_bg"
+        />
+ <element
+            id="LeftNavigator.ScrollBar.Lowlight"
+            bg="LeftSidebar_Scrollbar_Lowlight"
+            bg2="LeftSidebar_Scrollbar_Lowlight"
+            bdr="LeftSidebar_bg"
+        />
+
+ <element
+            id="TabsBar.Tab.Default"
+            bg="Tabsbar_fg_Low"
+            fg="Tabsbar_fg_Medium"
+            bdr="Unknown"
+        />
+ <element
+            id="TabsBar.Background"
+            bg="Mainpanel_Headerbar_bg"
+            bg2="Mainpanel_Headerbar_bg"
+        />
+ <element id="TabsBar.AltBackground" bg="Tabsbar_bg" bg2="Tabsbar_bg" />
+ <element
+            id="TabsBar.Tab.Highlight"
+            bg="Phosphor_Selected_bg"
+            bg2="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element id="TabsBar.BorderLine" bdr="Tabsbar_fg_Low" />
+ <element id="TabsBar.Tab.Separator" bg="Tabsbar_fg_Low" />
+
+ <element
+            id="TabsBar.TabInCaptionBar.Default"
+            bg="Tabsbar_bg"
+            bg2="Tabsbar_bg"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+            bdr="0,0,0,0"
+        />
+ <element
+            id="TabsBar.TabInCaptionBar.Highlight"
+            bg="Phosphor_Selected_bg"
+            bg2="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="TabsBar.TabInCaptionBar.Separator"
+            bg="Mainpanel_Headerbar_Line"
+        />
+ <element
+            id="TabsBar.TabInCaptionBar.BorderLine"
+            bdr="Mainpanel_Headerbar_Line"
+        />
+ <element
+            id="TabsBar.TabInCaptionBarAddButton.Default"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+            bg="Unknown"
+        />
+
+ <element
+            id="TabsBar.TabInCaptionBarTop.Default"
+            bg="Mainpanel_Headerbar_bg"
+            bg2="Mainpanel_Headerbar_bg"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+            bdr="0,0,0,0"
+        />
+ <element
+            id="TabsBar.TabInCaptionBarTop.Highlight"
+            bg="Phosphor_Selected_bg"
+            bg2="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="TabsBar.TabInCaptionBarTop.Separator"
+            bg="Mainpanel_Headerbar_Line"
+        />
+ <element
+            id="TabsBar.TabInCaptionBarTop.BorderLine"
+            bdr="Mainpanel_Headerbar_Line"
+        />
+ <element
+            id="TabsBar.TabInCaptionBarTopAddButton.Default"
+            fg="Mainpanel_Headerbar_Lowlight_fg"
+            bg="Unknown"
+        />
+
+ <element
+            id="TabsBar.TabInCaptionBarBlended.Default"
+            bg="Unknown"
+            fg="Tabsbar_fg_Medium"
+        />
+ <element
+            id="TabsBar.TabInCaptionBarBlended.Highlight"
+            bg="Phosphor_Selected_bg"
+            bg2="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+ <element id="TabsBar.TabInCaptionBarBlended.BorderLine" bdr="0,217,89,87" />
+ <element id="TabsBar.TabInCaptionBarBlended.Separator" bg="Tabsbar_fg_Low" />
+ <element
+            id="TabsBar.TabInCaptionBarBlended.AddButton"
+            fg="Tabsbar_fg_Medium"
+            bg="Unknown"
+        />
+
+ <element
+            id="TabsBar.TabBlended.Highlight"
+            bg="Phosphor_Selected_bg"
+            bg2="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+        />
+ <element id="TabsBar.TabBlended.Separator" bg="Tabsbar_fg_Low" />
+ <element id="TabsBar.TabBlended.BorderLine" bdr="Tabsbar_bg" />
+
+ <element
+            id="Player.SpectrumVisualiser"
+            bg="Infopanels_bg"
+            bg2="Infopanels_bg"
+            fg="Infopanels_Visualisations_Low"
+            fg2="Infopanels_Visualisations_High"
+            bdr="Infopanels_Visualisations_High"
+        />
+ <element id="Player.SpectrumVisualiserFill" fg="Infopanels_bg" />
+ <element
+            id="Player.Wavebar"
+            bg="Infopanels_bg"
+            fg="Infopanels_Visualisations_High"
+            fg2="Infopanels_Visualisations_Low"
+        />
+ <element
+            id="Player.Wavebar.Inner"
+            fg="Infopanels_Visualisations_High"
+            fg2="Infopanels_Visualisations_Low"
+        />
+
+ <element
+            id="VolumeVisualiser"
+            bg="Infopanels_bg"
+            fg="Infopanels_Visualisations_Low"
+            fg2="Infopanels_Visualisations_High"
+        />
+ <element id="VolumeVisualiserBar" fg="Infopanels_bg" />
+ <element
+            id="VolumeVisualiserText"
+            fg="Infopanels_Tracks_Headerbar_Selector_fg"
+        />
+
+ <element
+            id="PlayerFlat.Background"
+            bg="Playerpanel_Background_Default"
+            bg2="Playerpanel_Background_Default"
+        />
+ <element
+            id="PlayerFlat.DisplayPanel"
+            bg="Playerpanel_Background_Middle"
+            fg="Playerpanel_Text_Default"
+            fg2="Playerpanel_Text_Medium"
+        />
+ <element
+            id="PlayerFlat.ProgressBar"
+            bg="Playerpanel_Background_Default"
+            fg="Playerpanel_Element_High"
+            bdr="Playerpanel_Background_Default"
+        />
+ <element id="PlayerFlat.ProgressBarMiddle" bg="Playerpanel_Element_Medium" />
+ <element id="PlayerFlat.ProgressButton" fg="Playerpanel_Element_High" />
+ <element id="PlayerFlat.Control.Default" fg="Playerpanel_Controls_Default" />
+ <element
+            id="PlayerFlat.Control.Highlight"
+            fg="Playerpanel_Controls_Highlight"
+        />
+ <element id="PlayerFlat.Control.Disabled" fg="Playerpanel_Controls_Disabled" />
+ <element id="PlayerFlat.TrackPosition" fg="Playerpanel_Text_Low" />
+
+
+ <element id="PlayerFlat.SpectrumDefault" bg="Playerpanel_Background_Default" />
+ <element id="PlayerFlat.SpectrumDead" bg="Playerpanel_Background_Default" />
+ <element id="PlayerFlat.SpectrumLow" bg="46,103,65" />
+ <element id="PlayerFlat.SpectrumMedium" bg="70,171,102" />
+ <element id="PlayerFlat.SpectrumHigh" bg="Playerpanel_Element_High" />
+
+ <element id="PlayerFlat.VolumeSlideBar" fg="Playerpanel_Element_Medium" />
+ <element id="PlayerFlat.VolumeSliderButton" fg="Playerpanel_Element_Medium" />
+ <element id="PlayerFlat.VolumeIcon" fg="Playerpanel_Element_Medium" />
+
+ <element
+            id="PlayerFlat.Wavebar"
+            fg="Playerpanel_Element_High"
+            fg2="Playerpanel_Element_Low"
+        />
+ <element
+            id="PlayerFlat.Wavebar.Inner"
+            fg="Playerpanel_Element_High"
+            fg2="Playerpanel_Element_Low"
+        />
+
+ <element id="Player.StarRating.Default" fg="Playerpanel_Controls_Default" />
+ <element id="Player.StarRating.Lowlight" fg="Playerpanel_Element_Low" />
+
+ <element
+            id="PlayerFlat.StarRating.Default"
+            fg="Playerpanel_Controls_Default"
+        />
+ <element id="PlayerFlat.StarRating.Lowlight" fg="Playerpanel_Element_Low" />
+ <element id="PlayerFlat.NotLovedIcon" fg="Playerpanel_Element_Medium" />
+
+ <element
+            id="Compact.Player.Background"
+            bg="PlayingTracksPanel_bg"
+            fg="Playerpanel_Text_Medium"
+        />
+ <element id="Compact.Player.ProgressBar" fg="Playerpanel_Element_High" />
+ <element id="Compact.Player.ProgressButton" fg="Playerpanel_Element_High" />
+ <element
+            id="Compact.Player.Control.Default"
+            fg="Playerpanel_Controls_Default"
+        />
+ <element
+            id="Compact.Player.Control.Disabled"
+            fg="Playerpanel_Controls_Disabled"
+        />
+ <element
+            id="Compact.Player.Control.Highlight"
+            fg="Playerpanel_Controls_Highlight"
+        />
+ <element id="Compact.Player.Volume" bg="Unknown" fg="Unknown" />
+ <element
+            id="Compact.Player.Wavebar"
+            fg="Playerpanel_Element_High"
+            fg2="Playerpanel_Element_Low"
+        />
+ <element
+            id="Compact.Player.Wavebar.Inner"
+            fg="Playerpanel_Element_High"
+            fg2="Playerpanel_Element_Low"
+        />
+
+ <element id="PlayerSidebar.Background" bg="Infopanels_bg" fg="Infopanels_fg" />
+ <element id="PlayerSidebar.Control.Default" fg="Infopanels_fg" />
+ <element
+            id="PlayerSidebar.Control.Highlight"
+            fg="Infopanels_Tracks_Headerbar_fg"
+        />
+ <element id="PlayerSidebar.Control.Disabled" fg="Infopanels_bg" />
+ <element
+            id="PlayerSidebar.ProgressBar"
+            fg="Infopanels_fg"
+            bg="Infopanels_bg"
+            bdr="Unknown"
+        />
+ <element id="PlayerSidebar.ProgressButton" fg="Infopanels_fg" />
+ <element
+            id="PlayerSidebar.TrackPosition"
+            fg="Infopanels_Tracks_Headerbar_Selector_fg"
+        />
+
+ <element
+            id="PlayerMini.Background"
+            bg="Playerpanel_Background_Default"
+            bg2="Playerpanel_Background_Default"
+            fg="Playerpanel_Text_Default"
+        />
+ <element id="PlayerMini.Control.Default" fg="Playerpanel_Controls_Default" />
+ <element id="PlayerMini.Control.Disabled" fg="Playerpanel_Controls_Disabled" />
+ <element
+            id="PlayerMini.Control.Highlight"
+            fg="Playerpanel_Controls_Highlight"
+        />
+ <element
+            id="PlayerMini.ProgressBar"
+            fg="Playerpanel_Element_High"
+            bg="Playerpanel_Background_Default"
+        />
+ <element id="PlayerMini.ProgressButton" fg="Playerpanel_Element_High" />
+ <element id="PlayerMini.Spectrum" fg="Playerpanel_Element_High" />
+
+ <element
+            id="NowPlayingTrackInfo"
+            bg="MainPanel_Tracks_Headerbar_bg"
+            fg="MainPanel_Tracks_Headerbar_fg"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].ListHeader"
+            bg="PlayingTracksPanel_Headerbar_bg"
+            bg2="PlayingTracksPanel_Headerbar_bg"
+            fg="PlayingTracksPanel_Headerbar_fg"
+            bdr="PlayingTracksPanel_bg"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].Default"
+            bg="PlayingTracksPanel_bg"
+            fg="PlayingTracksPanel_fg"
+            bdr="Unknown"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].Highlight"
+            bg="Phosphor_Selected_bg"
+            fg="Phosphor_Selected_fg"
+            bdr="Phosphor_FocusBorder"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].Lowlight"
+            bg="Phosphor_InactiveSelection"
+            fg="PlayingTracksPanel_Line_Lowlight_fg"
+            bdr="PlayingTracksPanel_bg"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].Disabled"
+            fg="PlayingTracksPanel_Line_Disabled_fg"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].ListAlternating.Default"
+            bg="PlayingTracksPanel_bg"
+            fg="PlayingTracksPanel_fg"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].ListAlternating.Disabled"
+            fg="PlayingTracksPanel_Line_Disabled_fg"
+        />
+ <element
+            id="NowPlayingList[TrackDetail].ItemSeparatorLine"
+            fg="PlayingTracksPanel_bg"
+        />
+ <element
+            id="NowPlayingList.ScrollBar"
+            bg="PlayingTracksPanel_Scrollbar_Highlight"
+            bg2="PlayingTracksPanel_Scrollbar_Highlight"
+            bdr="PlayingTracksPanel_Scrollbar_Highlight"
+        />
+ <element
+            id="NowPlayingList.ScrollBarThumb"
+            bg="PlayingTracksPanel_bg"
+            bg2="PlayingTracksPanel_bg"
+            fg="PlayingTracksPanel_Scrollbar_Lowlight"
+            bdr="PlayingTracksPanel_bg"
+        />
+<element
+            id="NowPlayingList.ScrollBarBackground"
+            bg="PlayingTracksPanel_bg"
+            bg2="PlayingTracksPanel_bg"
+        />
+        <element
+            id="NowPlayingList.ScrollBar.Lowlight"
+            bg="PlayingTracksPanel_Scrollbar_Lowlight"
+            bg2="PlayingTracksPanel_Scrollbar_Lowlight"
+            bdr="PlayingTracksPanel_bg"
+        />
+ <element
+            id="NowPlayingList.SequenceInfo"
+            bg="PlayingTracksPanel_Line_Lowlight_bg"
+            fg="PlayingTracksPanel_Headerbar_fg"
+            fg2="PlayingTracksPanel_Line_Disabled_fg"
+            bdr="PlayingTracksPanel_Line_Lowlight_bg"
+        />
+
+ <element
+            id="NowPlaying[AlbumAndTracks].AlbumSeparatorLine"
+            bg="PlayingTracksPanel_Splitterline"
+            bg2="PlayingTracksPanel_Splitterline"
+        />
+
+ <element
+            id="NowPlayingPopup.Body"
+            bg="Playerpanel_Background_Default"
+            bg2="Playerpanel_Background_Default"
+            fg="Playerpanel_Text_Default"
+            fg2="Playerpanel_Controls_Default"
+            bdr="Playerpanel_Background_Default"
+        />
+ <element id="NowPlayingPopup.Border" bdr="Playerpanel_Background_Default" />
+
+ <element
+            id="MusicExplorerHeader"
+            bg="MainPanel_Tracks_bg"
+            bg2="MainPanel_Tracks_bg"
+            fg="MainPanel_Tracks_fg"
+            fg2="MainPanel_Tracks_fg"
+        />
+ <element
+            id="MusicExplorerHeaderBar.Default"
+            bg="MainPanel_Tracks_Headerbar_bg"
+            fg="MainPanel_Tracks_Headerbar_fg"
+        />
+ <element
+            id="MusicExplorerHeaderBar.Lowlight"
+            fg="MainPanel_Tracks_Headerbar_fg"
+        />
+ <element
+            id="MusicExplorerHeaderBar.Highlight"
+            fg="MainPanel_Tracks_Line_Highlight_fg"
+        />
+ <element
+            id="MusicExplorerTopTracks"
+            bg="MainPanel_Tracks_bg"
+            fg="MainPanel_Tracks_fg"
+            bdr="MainPanel_Tracks_Separatorline"
+        />
+
+ <element id="IconColourOverride.Default" fg="LibraryIcons" />
+
+ <element id="CaptionBarIconColorOverride" fg="Mainpanel_Headerbar_fg" />
+
+</colours>
+
+<settings>
+
+<element id="DefaultIconName">Chameleon</element>
+<element id="UseModernMenuButton">true</element>
+<element id="MenuButtonSharp">true</element>
+<element id="SlimIcons">true</element>
+<element id="UseNativeButtonTheme">false</element>
+  <!-- <element id="DisableWindowBorders">true</element> -->
+
+<element id="WindowBorderWidth">4</element>
+<element id="MainPanelMargin.Left">0</element>
+<element id="MainPanelMargin.Right">0</element>
+<element id="MainPanelMargin.Top">0</element>
+<element id="MainPanelMargin.Bottom">0</element>
+
+<element id="UseArtworkBorders">false</element>
+<element id="JukeboxCardBarWidth">4</element>
+<element id="UseSquareTabCorners">true</element>
+<element id="AllowCenteredTabInCaptionBar">true</element>
+
+<element id="ScrollBarMargin">1</element>
+<element id="ScrollPanelMargin">6</element>
+<element id="ScrollbarNoArrows">false</element>
+<element id="ScrollBarSliderSquare">true</element>
+<element id="ScrollBarHighlightMouseOverPanel">true</element>
+
+<element id="PlayerAutoColor">false</element>
+<element id="PlayerAutoColorUsingStandardSkinRules">false</element>
+<element id="PlayerInfoCentered">false</element>
+  <!-- <element id="PlayerMultilineSupported">false</element> -->
+  <!-- <element id="PlayerMultilineYAdj">-4</element> -->
+<element id="PlayerMultilineNoHeightAdjustment">false</element>
+<element id="PlayerProgressFractions">false</element>
+
+  <!-- <element id="AlwaysUseColumnBrowserColors">false</element> -->
+  <!-- <element id="ArtworkDimFactor">0.3</element> -->
+<element id="ContrastBoost">0.55</element>
+  <!-- <element id="HideScrobbleButtonSupported">true</element>  -->
+  <!-- <element id="HideScrobbleButtonOffset">0</element>  -->
+
+  <!-- <element id="PlayerSplitProgressYOffset">1</element>  [1, Above, Below, Center]  -->
+  <!-- <element id="PlayerSplitProgressTextFarAlign">false</element>  [forces far alignment (left align on the left progress and right align on the right duration] -->
+  <!-- <element id="PlayerSplitProgressXAdj">0</element> -->
+  <!-- <element id="PlayerSplitProgressYAdj">0</element> -->
+  <!-- <element id="PlayerAlignElementToPosition">TrackText</element> -->
+  <!-- <element id="PlayerAlignElementToDuration">TrackRating</element> -->
+
+</settings>
+
+<images id="Default">
+
+ <element id="FormBorderBottom">
+        iVBORw0KGgoAAAANSUhEUgAAAAEAAAAEAQMAAAB1Fsd5AAAAA1BMVEUWFhZXneKeAAAACklEQVR4
+        XmOAAgAACAABnWENdQAAAABJRU5ErkJggg==
+ </element>
+ <element id="FormBorderBottomLeft">
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAAA1BMVEUWFhZXneKeAAAACklEQVR4
+        XmOAAgAACAABnWENdQAAAABJRU5ErkJggg==
+ </element>
+ <element id="FormBorderBottomRight">
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAAEAQMAAACTPww9AAAAA1BMVEUWFhZXneKeAAAACklEQVR4
+        XmOAAgAACAABnWENdQAAAABJRU5ErkJggg==
+ </element>
+ <element id="FormBorderLeft">
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAAA1BMVEUWFhZXneKeAAAACklEQVR4
+        XmNgAAAAAgAB3p6PvwAAAABJRU5ErkJggg==
+ </element>
+ <element id="FormBorderRight">
+        iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAAA1BMVEUWFhZXneKeAAAACklEQVR4
+        XmNgAAAAAgAB3p6PvwAAAABJRU5ErkJggg==
+ </element>
+ <element id="FormBorderTop">
+        iVBORw0KGgoAAAANSUhEUgAAAAEAAAAcAQMAAACak0ePAAAAA1BMVEUAAACnej3aAAAAC0lEQVR4
+        XmMgEwAAADgAARjE5tUAAAAASUVORK5CYII=
+ </element>
+ <element id="FormBorderTopLeft">
+        iVBORw0KGgoAAAANSUhEUgAAAAUAAAAcAQMAAACTeOf1AAAAA1BMVEUAAACnej3aAAAAC0lEQVR4
+        XmMgEwAAADgAARjE5tUAAAAASUVORK5CYII=
+ </element>
+ <element id="FormBorderTopRight">
+        iVBORw0KGgoAAAANSUhEUgAAAAUAAAAcAQMAAACTeOf1AAAAA1BMVEUAAACnej3aAAAAC0lEQVR4
+        XmMgEwAAADgAARjE5tUAAAAASUVORK5CYII=
+ </element>
+ <element id="FormMinimiseButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAASkpKRPW+2AAAAAJ0Uk5TAP9bkSK1AAAAFElEQVR4nGNkAAJG0gnGfx8F0MQAJZMCEMO3iWYAAAAASUVORK5CYII=
+ </element>
+ <element id="FormMinimiseHighlightButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAwcHBC4hRkQAAAAJ0Uk5TAP9bkSK1AAAAFElEQVR4nGNkAAJG0gnGfx8F0MQAJZMCEMO3iWYAAAAASUVORK5CYII=
+ </element>
+ <element id="FormMaximiseButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAASkpKRPW+2AAAAAJ0Uk5TAP9bkSK1AAAALUlEQVR4nGNkAAJGCGG/UYCRQeHDBySC8Z8gkGDghxPvBYDEfwYo8Y8RphcIAFyqDxDWuIJYAAAAAElFTkSuQmCC
+ </element>
+ <element id="FormMaximiseHighlightButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAwcHBC4hRkQAAAAJ0Uk5TAP9bkSK1AAAALUlEQVR4nGNkAAJGCGG/UYCRQeHDBySC8Z8gkGDghxPvBYDEfwYo8Y8RphcIAFyqDxDWuIJYAAAAAElFTkSuQmCC
+ </element>
+ <element id="FormRestoreButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAASkpKRPW+2AAAAAJ0Uk5TAP9bkSK1AAAALUlEQVR4nGNkAAJGCGG/UYCRQeHDBySC8Z8gkGDghxPvBYDEfwYo8Y8RphcIAFyqDxDWuIJYAAAAAElFTkSuQmCC
+ </element>
+ <element id="FormRestoreHighlightButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAwcHBC4hRkQAAAAJ0Uk5TAP9bkSK1AAAALUlEQVR4nGNkAAJGCGG/UYCRQeHDBySC8Z8gkGDghxPvBYDEfwYo8Y8RphcIAFyqDxDWuIJYAAAAAElFTkSuQmCC
+ </element>
+ <element id="FormCloseButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAASkpKRPW+2AAAAAJ0Uk5TAP9bkSK1AAAALElEQVR4nGNkAAJGJCIhwYGRodAfSFi7NjAyyD8EivF9YoCywGJgWbA6FL0AUBYJEIur07QAAAAASUVORK5CYII=
+ </element>
+ <element id="FormCloseHighlightButton">
+ iVBORw0KGgoAAAANSUhEUgAAABwAAAAPAQMAAADNgT3iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAwcHBC4hRkQAAAAJ0Uk5TAP9bkSK1AAAALElEQVR4nGNkAAJGJCIhwYGRodAfSFi7NjAyyD8EivF9YoCywGJgWbA6FL0AUBYJEIur07QAAAAASUVORK5CYII=
+ </element>
+
+</images>
+</root>
