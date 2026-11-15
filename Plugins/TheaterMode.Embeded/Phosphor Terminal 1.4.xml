@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <settings enableScaling="true" />
+
+  <!-- Paint the embedded view independently of the current album artwork. -->
+  <element type="Block" x="0" y="0" widthDock="Panel" width="0"
+           heightDock="Panel" height="0" bg="0,0,0" />
+  <element type="Icon" image="Images\Phosphor Terminal Scanlines.png" gammaCorrected="false"
+           x="0" y="0" widthDock="Panel" width="0" heightDock="Panel" height="0" />
+
+  <element type="Text" x="24" y="15" widthDock="X:Panel.Right" width="-24"
+           font="Consolas" style="Bold" size="17" fg="85,255,142">&gt; NOW PLAYING</element>
+  <element type="Line" x="24" y="46" widthDock="X:Panel.Right" width="-24"
+           height="1" bg="30,100,55" />
+  <element type="Line" xAnchor="Panel.50" x="0" y="61" width="1"
+           heightDock="Y:Panel.Bottom" height="-55" bg="30,100,55" />
+
+  <!-- Lyrics and queue -->
+  <element type="Text" x="24" y="62" width="130"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">LYRICS</element>
+  <element type="Lyrics" x="24" y="86" widthDock="X:Panel.50" width="-20"
+           heightDock="Y:Panel.Bottom" height="-179"
+           font="Consolas" style="Regular" size="12"
+           fg="100,191,123" fg2="220,255,223" />
+
+  <element type="Line" x="24" yAnchor="Panel.Bottom" y="-170"
+           widthDock="X:Panel.50" width="-20" height="1" bg="30,100,55" />
+  <element type="Text" x="24" yAnchor="Panel.Bottom" y="-163" width="130"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">PLAYING TRACKS</element>
+  <element type="NowPlayingList" x="24" yAnchor="Panel.Bottom" y="-145"
+           widthDock="X:Panel.50" width="-20" heightDock="Y:Panel.Bottom" height="-18"
+           font="Consolas" style="Regular" size="11" rowPadding="2"
+           fg="71,237,110" fg2="85,255,142" mouseOverFg="85,255,142">
+    <child id="Speaker" width="18" />
+    <child id="#" width="38" format="#\." align="center" />
+    <child id="TrackArtistAndTitle" widthDock="Panel.Width.50" width="-112" />
+  </element>
+
+  <!-- Cover and metadata -->
+  <element name="#Cover" type="AlbumCover" xAnchor="Panel.75" x="0" y="64"
+           align="Top.Center" widthDock="Panel.Height.36" width="0"
+           heightDock="Panel.Height.36" height="0" max="320" bdr="71,237,110" />
+
+  <element type="Text" xAnchor="Panel.50" x="22" yAnchor="#Cover.Bottom" y="16" width="72"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">TRACK</element>
+  <element type="Field" id="Title" xAnchor="Panel.50" x="100" yAnchor="#Cover.Bottom" y="16"
+           widthDock="X:Panel.Right" width="-24" align="left"
+           font="Consolas" style="Bold" size="12" fg="85,255,142" />
+  <element type="Text" xAnchor="Panel.50" x="22" yAnchor="#Cover.Bottom" y="38" width="72"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">ARTIST</element>
+  <element type="Field" id="Artist" xAnchor="Panel.50" x="100" yAnchor="#Cover.Bottom" y="38"
+           widthDock="X:Panel.Right" width="-24" align="left"
+           font="Consolas" style="Regular" size="12" fg="71,237,110" />
+  <element type="Text" xAnchor="Panel.50" x="22" yAnchor="#Cover.Bottom" y="60" width="72"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">ALBUM</element>
+  <element type="Field" id="Album" xAnchor="Panel.50" x="100" yAnchor="#Cover.Bottom" y="60"
+           widthDock="X:Panel.Right" width="-24" align="left"
+           font="Consolas" style="Regular" size="12" fg="71,237,110" />
+  <element type="Text" xAnchor="Panel.50" x="22" yAnchor="#Cover.Bottom" y="82" width="72"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">YEAR</element>
+  <element type="Field" id="Year" xAnchor="Panel.50" x="100" yAnchor="#Cover.Bottom" y="82"
+           widthDock="X:Panel.Right" width="-24" align="left"
+           font="Consolas" style="Regular" size="12" fg="71,237,110" />
+
+
+  <!-- Spectrum under the track readout -->
+  <element type="Text" xAnchor="Panel.50" x="22" yAnchor="Panel.Bottom" y="-260" width="145"
+           font="Consolas" style="Bold" size="11" fg="100,191,123">SPECTRUM</element>
+  <element type="SpectrumVisualiser" xAnchor="Panel.50" x="22" yAnchor="Panel.Bottom" y="-241"
+           widthDock="X:Panel.Right" width="-24" height="220"
+           fg="71,237,110" bdr="85,255,142" />
+</root>
