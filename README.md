@@ -47,18 +47,32 @@ True-black background, phosphor-green text, scanlines on the Now Playing screen.
 
 **1. Get the files.** Click **Code → Download ZIP** and extract it.
 
-**2. Copy the skin and plugin** into your MusicBee folder. That is `%AppData%\MusicBee` for the installer version, or the MusicBee folder itself for a portable install.
+**2. Copy the skin and Theater Mode files** into your MusicBee data folder.
+
+| Installation | MusicBee folder |
+|---|---|
+| Standard installer | `%APPDATA%\MusicBee` |
+| Microsoft Store | `%LOCALAPPDATA%\Packages\50072StevenMayall.MusicBee_kcr266et74avj\LocalCache\Roaming\MusicBee` |
+| Portable | The folder containing `MusicBee.exe` |
 
 ```text
-Skins/Phosphor 1.1.xml                      →  MusicBee\Skins\
-Plugins/TheaterMode.Embeded/                →  MusicBee\Plugins\TheaterMode.Embeded\
+Skins/Phosphor 1.1.xml → Skins/
+Plugins/TheaterMode.Embeded/Phosphor Terminal 1.4.xml → Plugins/TheaterMode.Embeded/
+Plugins/TheaterMode.Embeded/Images/Phosphor Terminal Scanlines.png → Plugins/TheaterMode.Embeded/Images/
 ```
+
+Keep the `Images` subfolder next to the Theater Mode XML so MusicBee can find the scanline texture.
 
 **3. Install the font** (recommended). Open `fonts/IBM-Plex-Mono/`, select all `.ttf` files, right-click → **Install**.
 
-**4. Pick the skin.** Start MusicBee, open **Preferences → Appearance → Skin** and choose **Phosphor**. Then choose the Phosphor Terminal layout for the embedded Now Playing / Theater Mode view.
+**4. Pick the skin.** Start MusicBee, open **Preferences → Appearance → Skin** and choose **Phosphor**. In the **Now Playing** tab, open **Configure Layout → Main Panel → Theater Mode**, then select **Phosphor Terminal 1.4**. To switch back, select **Phosphor Terminal 1.3** if installed.
 
 **5. Set the font.** In **Preferences → Appearance → Fonts**, choose **IBM Plex Mono** for the best match with the screenshots.
+
+## Changes in Theater Mode 1.4
+
+- The current line in synchronized lyrics uses pale mint, while surrounding lines use a softer green. The contrast between them increased from 1.18:1 to 2.09:1.
+- The screenshots above are from 1.3.
 
 ## Palette
 
@@ -76,7 +90,8 @@ musicbee-retro/
 │   └── Phosphor 1.1.xml
 ├── Plugins/
 │   └── TheaterMode.Embeded/
-│       ├── Phosphor Terminal 1.3.xml
+│       ├── Phosphor Terminal 1.4.xml
+│       ├── Phosphor Terminal 1.3.xml  (previous version)
 │       └── Images/Phosphor Terminal Scanlines.png
 ├── fonts/
 │   └── IBM-Plex-Mono/            (+ OFL.txt)
