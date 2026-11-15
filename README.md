@@ -12,6 +12,8 @@
 **Your music player, as a CRT terminal.**
 True-black background, phosphor-green text, scanlines on the Now Playing screen.
 
+The pack includes **Phosphor 1.1** and **Phosphor Terminal 1.5**.
+
 </div>
 
 ---
@@ -65,15 +67,19 @@ Keep the `Images` subfolder next to the Theater Mode XML so MusicBee can find th
 
 **3. Install the font** (recommended). Open `fonts/IBM-Plex-Mono/`, select all `.ttf` files, right-click → **Install**.
 
-**4. Pick the skin.** Start MusicBee, open **Preferences → Appearance → Skin** and choose **Phosphor**. In the **Now Playing** tab, open **Configure Layout → Main Panel → Theater Mode**, then select **Phosphor Terminal 1.5**. To switch back, select **Phosphor Terminal 1.4**.
+**4. Pick the skin.** Start MusicBee, open **View → Skins** and choose **Phosphor 1.1**. In the **Now Playing** tab, open **Configure Layout → Main Panel → Theater Mode**, then select **Phosphor Terminal 1.5**. To switch back, select **Phosphor Terminal 1.4** if you have it installed.
 
-**5. Set the font.** In **Preferences → Appearance → Fonts**, choose **IBM Plex Mono** for the best match with the screenshots.
+**5. Set the font.** Open **Edit Preferences → Layout (1) → General**, enable **Custom font**, and choose **IBM Plex Mono** for the best match with the screenshots.
 
 ## Changes in Theater Mode 1.5
 
 - The playing track stands out in pale mint in the queue, with a speaker icon marking its row.
 - The track title is larger and brighter, with more space before the artist, album, and year.
 - The scanlines are softer behind the lyrics and queue. The synchronized lyric colors from 1.4 carry over.
+
+## Known limitations
+
+The bottom player bar uses MusicBee’s built-in icons.
 
 ## Palette
 
@@ -101,7 +107,7 @@ musicbee-retro/
 
 ## Credits
 
-- Skin based on **FarSe AMOLED / Chameleon Dark v1.6** by *hiccup*, edited by *ENRIVAC*.
+- Phosphor is based on [FALCOM AMOLED 1.0 by FarSe](https://gist.github.com/Far-Se/54dcd1779b4e0a50baba863610e022c0), which builds on ENRIVAC’s FALCOM edit of hiccup’s Chameleon Dark v1.6. Redistribution terms for the upstream skin have yet to be verified.
 - **IBM Plex Mono** © IBM Corp., licensed under the [SIL Open Font License 1.1](fonts/IBM-Plex-Mono/OFL.txt).
 - Made for [MusicBee](https://getmusicbee.com/).
 
