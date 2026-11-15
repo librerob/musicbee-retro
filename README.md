@@ -57,7 +57,7 @@ True-black background, phosphor-green text, scanlines on the Now Playing screen.
 
 ```text
 Skins/Phosphor 1.1.xml → Skins/
-Plugins/TheaterMode.Embeded/Phosphor Terminal 1.4.xml → Plugins/TheaterMode.Embeded/
+Plugins/TheaterMode.Embeded/Phosphor Terminal 1.5.xml → Plugins/TheaterMode.Embeded/
 Plugins/TheaterMode.Embeded/Images/Phosphor Terminal Scanlines.png → Plugins/TheaterMode.Embeded/Images/
 ```
 
@@ -65,13 +65,15 @@ Keep the `Images` subfolder next to the Theater Mode XML so MusicBee can find th
 
 **3. Install the font** (recommended). Open `fonts/IBM-Plex-Mono/`, select all `.ttf` files, right-click → **Install**.
 
-**4. Pick the skin.** Start MusicBee, open **Preferences → Appearance → Skin** and choose **Phosphor**. In the **Now Playing** tab, open **Configure Layout → Main Panel → Theater Mode**, then select **Phosphor Terminal 1.4**. To switch back, select **Phosphor Terminal 1.3** if installed.
+**4. Pick the skin.** Start MusicBee, open **Preferences → Appearance → Skin** and choose **Phosphor**. In the **Now Playing** tab, open **Configure Layout → Main Panel → Theater Mode**, then select **Phosphor Terminal 1.5**. To switch back, select **Phosphor Terminal 1.4**.
 
 **5. Set the font.** In **Preferences → Appearance → Fonts**, choose **IBM Plex Mono** for the best match with the screenshots.
 
-## Changes in Theater Mode 1.4
+## Changes in Theater Mode 1.5
 
-- The current line in synchronized lyrics uses pale mint, while surrounding lines use a softer green. The contrast between them increased from 1.18:1 to 2.09:1.
+- The playing track stands out in pale mint in the queue, with a speaker icon marking its row.
+- The track title is larger and brighter, with more space before the artist, album, and year.
+- The scanlines are softer behind the lyrics and queue. The synchronized lyric colors from 1.4 carry over.
 - The screenshots above are from 1.3.
 
 ## Palette
@@ -90,8 +92,8 @@ musicbee-retro/
 │   └── Phosphor 1.1.xml
 ├── Plugins/
 │   └── TheaterMode.Embeded/
-│       ├── Phosphor Terminal 1.4.xml
-│       ├── Phosphor Terminal 1.3.xml  (previous version)
+│       ├── Phosphor Terminal 1.5.xml
+│       ├── Phosphor Terminal 1.4.xml  (previous version)
 │       └── Images/Phosphor Terminal Scanlines.png
 ├── fonts/
 │   └── IBM-Plex-Mono/            (+ OFL.txt)
